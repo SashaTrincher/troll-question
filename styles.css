@@ -55,6 +55,16 @@
     font-size: 100px;
     color: red;
 }
+.text-inactive {
+    display: none;
+    transition: .3s;
+}
+
+.text-active {
+    display: inline;
+    font-size: 100px;
+    color: rgb(153, 255, 1);
+}
 
 .inactive {
     display: none;
